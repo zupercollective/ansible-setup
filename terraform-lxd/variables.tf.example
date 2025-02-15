@@ -1,0 +1,13 @@
+# Copy this file as "variables.tf"
+variable "ssh_public_key_path" {
+  type = string
+  # Change this based on your local path
+  default = "~/.ssh/id_rsa.pub"
+}
+
+variable "instance_count" {
+  type = number
+  # Change this based on your instance_count that need to initialize
+  default = 1
+}
+
