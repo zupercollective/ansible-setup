@@ -1,0 +1,6 @@
+Inventory
+.vagrant
+
+terraform*/.terraform*
+terraform*/terraform*
+terraform*/variables.tf
